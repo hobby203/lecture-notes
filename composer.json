@@ -1,0 +1,16 @@
+{
+  "require": {
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hobby203\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hobby203\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
